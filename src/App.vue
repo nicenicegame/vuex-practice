@@ -19,8 +19,13 @@ export default {
   computed: {
     layout() {
       return this.$route.meta.layout
-    }
-  }
+    },
+  },
+  methods: {
+    login() {
+      this.$gtag.event('login', { method: 'Google' })
+    },
+  },
 }
 </script>
 <style>
