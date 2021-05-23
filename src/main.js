@@ -7,7 +7,7 @@ import vuetify from './plugins/vuetify'
 import router from './router'
 
 Vue.use(VueGtag, {
-  config: { id: 'G-P0RFEHKDCE' },
+  config: { id: 'G-9LM0SJWT6X' },
 })
 
 Vue.use(Vuex)
